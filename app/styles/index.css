@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container-md{
+	@apply px-20 pt-24 pb-10;
+}
+
+.container-xl{
+	@apply px-20 pt-32 pb-10
+}
+
+.btn-orange{
+	@apply  btn bg-orange-500 text-white hover:bg-orange-500 border-orange-500 hover:border-orange-500
+}
+.btn-outline-orange{
+	@apply  btn bg-base-100 text-orange-500 hover:bg-orange-500 border-orange-500 hover:text-white hover:border-orange-500
+}
+
+.btn-outline-error{
+	@apply  btn bg-base-100 text-red-500 border-red-500 hover:bg-red-500  hover:text-white hover:border-red-500
+}
+.btn-white{
+	@apply  btn bg-white text-black hover:bg-white border-white hover:border-white
+}
+.card-dark{
+	@apply  card border border-base-300 bg-base-200
+}
+
+.card-light{
+	@apply  card border shadow-md
+}
+
+.item-dark{
+	@apply border-b hover:bg-base-100  cursor-pointer
+}
+
+.item-light{
+	@apply  hover:bg-base-300 rounded-md  cursor-pointer
+}
+
+.search-input{
+	@apply input input-bordered input-warning  p-6 rounded-xl flex items-center gap-2
+}
