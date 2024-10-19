@@ -67,7 +67,7 @@ export default function UserForm(props:stepprops) {
             <form onSubmit={handleSubmit}>
                 <p className='text-xl mb-5'>مشخصات زیر را وارد کنید</p>
                 <div>
-                    <label className="input input-bordered input-warning flex items-center gap-2">
+                    <label className="input input-bordered input-warning rounded-xl flex items-center gap-2">
                         <FaUser className='text-orange-500'/>
                         <input type="text" name="fullname" value={values.fullname} onChange={handleChange} className="grow" placeholder="نام و نام‌خانوادگی" />
                     </label>
@@ -76,7 +76,7 @@ export default function UserForm(props:stepprops) {
                     </div>
                 </div>
                 <div>
-                <select className="select select-bordered border-2 select-warning w-full" value={values.gender} name='gender' onChange={handleChange}>
+                <select className="select select-bordered border-2 select-warning w-full rounded-xl" value={values.gender} name='gender' onChange={handleChange}>
                     <option disabled selected>جنسیت خود را انتخاب کنید...</option>
                     <option value="female"> زن</option>
                     <option value="male"> مرد</option>
@@ -86,7 +86,7 @@ export default function UserForm(props:stepprops) {
                 </div>
                 </div>
                 <div>
-                    <label className="input input-bordered input-warning flex items-center gap-2">
+                    <label className="input input-bordered input-warning rounded-xl flex items-center gap-2">
                         <FaRegAddressCard className='text-orange-500 font-bold'/>
                         <input type="text" maxLength={10} name="pid" value={values.pid} onChange={handleChange} className="grow" placeholder="کدملی" />
                     </label>
@@ -97,7 +97,7 @@ export default function UserForm(props:stepprops) {
                 
             
                 <button 
-                    className="btn-orange w-full" 
+                    className="btn-orange w-full " 
                     type='submit'
                     disabled={values.fullname=="" && values.gender=="" && values.pid==""}>
                     ادامه

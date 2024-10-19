@@ -47,7 +47,7 @@ export default function EmailForm(props:stepprops) {
           <form onSubmit={handleSubmit}>
             <p className='text-xl my-6'>ایمیل خود را وارد کنید</p>
                <div>
-                  <label className="input input-bordered input-warning flex items-center gap-2 text-start">
+                  <label className="input input-bordered input-warning  rounded-xl flex items-center gap-2 text-start">
                       <FaEnvelope className='text-orange-500'/>
                       <input type="email" name='email' dir='ltr' value={values.email} onChange={handleChange} className="grow text-end" placeholder="me@example.com" />
                   </label>
@@ -58,7 +58,7 @@ export default function EmailForm(props:stepprops) {
                </div>
               
               <button 
-                  className="btn bg-orange-500 hover:bg-orange-500 w-full text-white mb-9"
+                  className="btn-orange w-full"
                   type="submit"
                   >
                   ادامه

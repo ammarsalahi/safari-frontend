@@ -3,7 +3,7 @@ import SignupSteps from '~/components/elements/accounts/SignupSteps'
 
 export default function SignupPage() {
   return (
-    <div className='pt-14'>
+    <div className='pt-20'>
        <SignupSteps/>
     </div>
   )

@@ -13,17 +13,17 @@
 }
 
 .btn-orange{
-	@apply  btn bg-orange-500 text-white hover:bg-orange-500 border-orange-500 hover:border-orange-500
+	@apply  btn bg-orange-500 text-white hover:bg-orange-500 border-orange-500 hover:border-orange-500 rounded-xl
 }
 .btn-outline-orange{
-	@apply  btn bg-base-100 text-orange-500 hover:bg-orange-500 border-orange-500 hover:text-white hover:border-orange-500
+	@apply  btn bg-base-100 text-orange-500 hover:bg-orange-500 border-orange-500 hover:text-white hover:border-orange-500 
 }
 
 .btn-outline-error{
-	@apply  btn bg-base-100 text-red-500 border-red-500 hover:bg-red-500  hover:text-white hover:border-red-500
+	@apply  btn bg-base-100 text-red-500 border-red-500 hover:bg-red-500  hover:text-white hover:border-red-500 rounded-xl
 }
 .btn-white{
-	@apply  btn bg-white text-black hover:bg-white border-white hover:border-white
+	@apply  btn bg-white text-black hover:bg-white border-white hover:border-white rounded-xl
 }
 .card-dark{
 	@apply  card border border-base-300 bg-base-200
@@ -44,3 +44,4 @@
 .search-input{
 	@apply input input-bordered input-warning  p-6 rounded-xl flex items-center gap-2
 }
+

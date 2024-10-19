@@ -3,7 +3,7 @@ import SigninForm from '~/components/elements/accounts/SigninForm'
 
 export default function SigninPage() {
   return (
-    <div className='pt-16'>
+    <div className='md:pt-20 2xl:pt-32'>
       <SigninForm/>
     </div>
   )

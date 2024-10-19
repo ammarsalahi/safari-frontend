@@ -38,9 +38,9 @@ export default function () {
 
     
   return (
-    <div className="grid md:grid-cols-5 place-content-center">
+    <div className="grid md:grid-cols-6 place-content-center">
      <div></div>
-    <div className="md:col-span-3 ">
+    <div className="md:col-span-4 ">
        <div className="card shadow-2xl h-screen md:h-[500px] 2xl:h-[600px]  border-2 border-orange-400 ">
           <div className="card-body p-0 ">
              <div className="grid md:grid-cols-2 h-full">

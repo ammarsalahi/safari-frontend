@@ -15,9 +15,9 @@ export default function SigninForm() {
     const [token,setToken]=useRecoilState(TokenSelector);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-5 place-content-center">
+    <div className="grid grid-cols-1 md:grid-cols-6 place-content-center">
       <div></div>
-    <div className="col-span-1 lg:col-span-3">
+    <div className="col-span-1 md:col-span-4">
        <div className="card shadow-2xl h-screen md:h-[500px] 2xl:h-[600px]  border-2 border-orange-400 ">
           <div className="card-body p-0 ">
              <div className="grid md:grid-cols-2 h-full">
@@ -64,7 +64,7 @@ export default function SigninForm() {
                            <form onSubmit={handleSubmit}>
                                   <p className="pb-12 font-bold text-2xl text-center">ورود کاربر</p>
                                      <div className='mb-2'>
-                                       <label className="input input-bordered input-warning flex items-center gap-2">
+                                       <label className="input input-bordered input-warning rounded-xl flex items-center gap-2">
                                              <FaUser className='text-orange-500'/>
                                           <input 
                                              type="text" name="username" value={values.username} onChange={handleChange} 
@@ -77,7 +77,7 @@ export default function SigninForm() {
                                      </div>
                                      
                                     <div className='mb-2'>
-                                       <label className="input input-bordered input-warning flex items-center gap-2">
+                                       <label className="input input-bordered input-warning rounded-xl flex items-center gap-2">
                                                 <FaLock className='text-orange-500'/>
                                           <input 
                                              type="password" name="password" value={values.password} onChange={handleChange}
@@ -90,7 +90,7 @@ export default function SigninForm() {
                                     </div>
                                    
                                     <button 
-                                       className="btn-orange w-full text-lg"
+                                       className="btn-orange w-full text-lg rounded-xl"
                                        type='submit'   
                                     >
                                        تایید

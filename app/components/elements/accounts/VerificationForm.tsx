@@ -75,7 +75,7 @@ export default function VerificationForm(props:stepprops) {
                       <input 
                         key={idx}
                         ref={(element)=>inputRefs.current[idx]=element}
-                        className='input input-bordered input-warning text-2xl w-12'
+                        className='input input-bordered input-warning  rounded-xl text-2xl w-12'
                         maxLength={1}
                         onChange={(event) => handleInputChange(idx, event)}
                       />
